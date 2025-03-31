@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  background-color: #f7f7f7;
+  color: #222;
+  min-height: 100vh;
+}
+
+.App.dark {
+  background-color: #111;
+  color: #f1f1f1;
+  }
+
+button {
+  margin-bottom: 2rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.clock-box {
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  min-width: 150px;
+  transition: all 0.3s ease;
+}
+
+.App.dark .clock-box {
+  border-color: #444;
+}
